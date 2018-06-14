@@ -59,7 +59,7 @@ Sometimes you need to set all the pixels to the same color. This convenience met
 The `brightness` argument is completely optional. Omit it to keep the last brightness values set for each pixel.
 
 ``` javascript
-blinkt.setPixels(red, green, blue, brightness)
+blinkt.setAll(red, green, blue, brightness)
 ```
 
 | Parameter  | Description                                                   | Required |
